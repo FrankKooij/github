@@ -1,4 +1,10 @@
-# Issues van https://github.com/geonovum/imbag exporteren
+# Issues en commentaren exporteren vanuit een repository
+
+## Inleiding
+
+Dit stappenplan beschrijft hoe je met behulp van een Mac de issues en commentaren van een GitHub-repository kunt exporteren naar Excel. Als voorbeeld is de repository https://github.com/geonovum/imbag gebruikt, maar die kun je vervangen door elke andere repository waartoe je toegang hebt.
+
+## Bronnen
 
 Primaire bron:
 - http://www.fullo.net/blog/2012/06/25/export-github-issues-as-csv-with-v3-api
@@ -8,6 +14,8 @@ Secundaire bronnen:
 - http://stackoverflow.com/questions/10757671/how-to-remove-line-breaks-no-characters-from-the-string
 - http://stackoverflow.com/questions/4824621/is-a-new-line-n-or-r-n
 - http://php.net/manual/en/function.addslashes.php
+
+## Werkwijze
 
 Maak een PHP-script in de gewenste werkmap door deze [tekst](http://www.fullo.net/blog/2012/06/25/export-github-issues-as-csv-with-v3-api) te plakken in een leeg bestand met de naam `github2csv.php`:
 
